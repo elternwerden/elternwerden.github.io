@@ -111,6 +111,21 @@ form button:hover {
     background-color: #45a049;
 }
 
+/* --- Formularstruktur: Terminabfrage --- */
+fieldset {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
 /* -------- Über mich: Bild rechts mit Textumfluss in kleinerer Größe -------- */
 .profilbild-rechts {
     float: right;

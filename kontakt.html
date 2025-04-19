@@ -22,7 +22,7 @@
 
     <main>
         <h2>Kontakt & Anmeldung</h2>
-        <p>Wenn du Interesse an der Müttergruppe hast oder Fragen zu meinem Angebot, schreib mir gern über das folgende Formular. Ich freue mich auf deine Nachricht!</p>
+        <p>Wenn Sie Interesse an der Müttergruppe oder Fragen zu meinem Angebot haben, schreiben Sie mir gern über das folgende Formular. Ich freue mich auf Ihre Nachricht!</p>
 
         <form action="https://formspree.io/f/mpwpolvy" method="POST">
             <label for="name">Name:</label><br>
@@ -34,6 +34,22 @@
             <label for="nachricht">Nachricht:</label><br>
             <textarea id="nachricht" name="nachricht" rows="5" required></textarea><br><br>
 
+            <fieldset>
+                <legend>Bei Anmeldung für die Müttergruppe: Wann würde Ihnen ein Gruppentermin am besten passen?</legend>
+            
+                <p><strong>Wochentag:</strong></p>
+                <label><input type="checkbox" name="wochentag" value="Samstag"> Samstag</label><br>
+                <label><input type="checkbox" name="wochentag" value="Sonntag"> Sonntag</label><br>
+                <label><input type="checkbox" name="wochentag" value="Beides passt"> Beides passt</label><br>
+            
+                <p><strong>Bevorzugte Startzeit:</strong></p>
+                <label><input type="checkbox" name="startzeit" value="10:00"> 10:00 Uhr</label><br>
+                <label><input type="checkbox" name="startzeit" value="11:00"> 11:00 Uhr</label><br>
+                <label><input type="checkbox" name="startzeit" value="14:00"> 14:00 Uhr</label><br>
+                <label><input type="checkbox" name="startzeit" value="15:00"> 15:00 Uhr</label><br>
+                <label><input type="checkbox" name="startzeit" value="Alles passt"> Alles passt</label><br>
+            </fieldset>
+            
             <button type="submit">Absenden</button>
         </form>
     </main>
