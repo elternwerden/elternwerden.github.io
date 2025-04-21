@@ -150,33 +150,37 @@ legend {
     }
   }
   
-/* ===========================================
-   Responsive Bild-Anpassung für „Über mich“
-   =========================================== */
-   .ueber-mich-container {
+/* --- ÜBER MICH: Layout auf großen Bildschirmen --- */
+.ueber-mich-container {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     gap: 20px;
-    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .ueber-mich-bild {
-    max-width: 200px;
+    max-width: 250px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
-@media (max-width: 768px) {
+/* --- Responsive Design für Handy --- */
+@media (max-width: 700px) {
     .ueber-mich-container {
         flex-direction: column;
         align-items: center;
-        text-align: left;
     }
 
     .ueber-mich-bild {
         max-width: 70%;
-        margin-bottom: 20px;
+        margin: 0 auto 20px auto;
+    }
+
+    .ueber-mich-text {
+        text-align: left;
     }
 }
+
 
   
