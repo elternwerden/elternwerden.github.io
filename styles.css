@@ -163,6 +163,12 @@ legend {
     max-width: 250px;
     height: auto;
     border-radius: 8px;
+    order: 2; /* Bild immer rechts */
+    margin-left: auto; /* Schiebt das Bild ganz nach rechts */
+}
+
+.ueber-mich-text {
+    flex: 1;
 }
 
 /* --- Responsive Design für Handy --- */
@@ -175,6 +181,7 @@ legend {
     .ueber-mich-bild {
         max-width: 70%;
         margin: 0 auto 20px auto;
+        order: 0; /* Reihenfolge zurücksetzen fürs Handy */
     }
 
     .ueber-mich-text {
