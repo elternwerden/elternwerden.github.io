@@ -17,12 +17,31 @@
    Header & Navigation
    =============================== */
 
-header {
-    background: #f4f4f4;
+   header {
+    background-color: #DEEBF7; /* Neuer Hintergrund */
     padding: 20px;
     text-align: center;
     border-radius: 10px;
 }
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.logo-container h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
 
 nav ul {
     list-style: none;
@@ -189,5 +208,18 @@ legend {
     }
 }
 
+/* ===============================
+   Responsive Design für Logo
+   =============================== */
+   @media (max-width: 600px) {
+    .logo {
+      height: 35px;
+    }
+  
+    .logo-container h1 {
+      font-size: 1.4rem;
+    }
+  }
+  
 
   
