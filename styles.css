@@ -38,7 +38,7 @@
 }
 
 .logo {
-    height: 70px;
+    height: 80px;
     width: auto;
 }
 
@@ -213,7 +213,7 @@ legend {
    =============================== */
    @media (max-width: 700px) {
     .logo {
-      height: 45px;
+      height: 55px;
     }
   
     .logo-container h1 {
