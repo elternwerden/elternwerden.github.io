@@ -38,7 +38,7 @@
 }
 
 .logo {
-    height: 50px;
+    height: 70px;
     width: auto;
 }
 
@@ -211,9 +211,9 @@ legend {
 /* ===============================
    Responsive Design für Logo
    =============================== */
-   @media (max-width: 600px) {
+   @media (max-width: 700px) {
     .logo {
-      height: 35px;
+      height: 45px;
     }
   
     .logo-container h1 {
