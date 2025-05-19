@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impressum & Datenschutz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <a href="index.html">
+        <img src="Logo_final.png" alt="Logo Elternwerden" class="logo">
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Start</a></li>
+        <li><a href="muettergruppe.html">Müttergruppe</a></li>
+        <li><a href="ueber-mich.html">Über mich</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Impressum</h2>
+    <p><strong>Psychologische Beratung</strong><br>
+    Emilia Schneider<br>
+    Odenwaldstraße 12<br>
+    60528 Frankfurt am Main</p>
+
+    <p><strong>Kontakt:</strong><br>
+    Telefon: +49 1577 0253484<br>
+    E-Mail: <a href="mailto:elternwerden@posteo.de">elternwerden@posteo.de</a></p>
+
+    <p><strong>Berufsbezeichnungen:</strong><br>
+    M.Sc. Psychologin, psychologische Beratung</p>
+
+    <p><strong>Verbraucherstreitbeilegung / Universalschlichtungsstelle:</strong><br>
+    Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+
+    <hr>
+
+    <h2>Datenschutz</h2>
+    <p>Die Informationen zum Datenschutz folgen in Kürze.</p>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="jahr"></span> Elternwerden – psychologische Beratung</p>
+    <p><a href="impressum-datenschutz.html" class="footer-link">Impressum & Datenschutz</a></p>
+  </footer>
+
+  <script>
+    document.getElementById("jahr").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

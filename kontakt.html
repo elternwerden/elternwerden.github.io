@@ -60,7 +60,13 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Elternwerden</p>
+        <p>&copy; <span id="jahr"></span> Elternwerden – psychologische Beratung</p>
+        <p><a href="impressum-datenschutz.html" class="footer-link">Impressum & Datenschutz</a></p>
     </footer>
+      
+      <script>
+        // Automatische Jahreszahl
+        document.getElementById("jahr").textContent = new Date().getFullYear();
+      </script>
 </body>
 </html>
